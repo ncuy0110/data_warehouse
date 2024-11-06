@@ -1,7 +1,7 @@
 from os import getenv
 
-input_path = getenv("INPUT_PATH",'input_data/DATASET.xlsx')
-output_path = getenv("OUTPUT_PATH",'output_data/')
+input_path = getenv("INPUT_PATH",'d:/lab/data_warehouse/DATASET.xlsx')
+output_path = getenv("OUTPUT_PATH",'d:/lab/data_warehouse/data_warehouse/output_data/')
 
 # Đường dẫn output cho các file CSV
 output_path = getenv("OUTPUT_PATH", 'output_data/')

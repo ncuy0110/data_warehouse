@@ -1,9 +1,9 @@
-from src.import_data import import_customer
-from src.import_data import import_film
-from src.import_data import import_ticket
-from src.import_data import import_time
-from src.import_data import import_salebytime
-from src.import_data import import_transactions
+from import_data import import_customer
+from import_data import import_film
+from import_data import import_ticket
+from import_data import import_time
+from import_data import import_salebytime
+from import_data import import_transactions
 
 
 # Gọi hàm import_customer từ file import_customer.py

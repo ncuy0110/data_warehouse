@@ -1,6 +1,6 @@
 import pandas as pd
-from src import settings
-from src.db import db
+import settings
+from db import db
 
 sales_by_time_db = db["sales_by_time"]
 time_db = db["time"]

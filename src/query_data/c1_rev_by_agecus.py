@@ -1,6 +1,6 @@
 import pandas as pd
-from src.db import db
-import src.settings as settings
+from db import db
+import settings as settings
 from datetime import datetime, date
 
 

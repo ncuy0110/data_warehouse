@@ -1,6 +1,6 @@
 import pandas as pd
-from src import settings
-from src.db import db
+import settings
+from db import db
 
 film_db = db["films"]
 

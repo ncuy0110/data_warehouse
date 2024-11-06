@@ -1,7 +1,7 @@
 import pandas as pd
 import math
-from src import settings
-from src.db import db
+import settings
+from db import db
 
 transaction_db = db["transaction"]
 customer_db = db["customers"]
